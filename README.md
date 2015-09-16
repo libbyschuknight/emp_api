@@ -1,4 +1,4 @@
-== README
+## README
 
 App made from following "Build Great APIS with Grape
 " tutorial http://www.sitepoint.com/build-great-apis-grape/
@@ -14,6 +14,11 @@ instead of
 ```
  curl http://localhost:3000/api/v1/employee_data.json -d "name=jay;address=delhi;age=25"
 ```
+which was from tutorial but didn't work for me. Kept on getting this error
+```
+{"error":"address is missing, age is missing"}
+```
+
 
 This worked as well
 
