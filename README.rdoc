@@ -6,18 +6,8 @@ App made from following "Build Great APIS with Grape
 Syntax for doing post using curl
 
 ```
-{
 curl -d "name=bob" -d "address=mumbai" -d "age=33" http://localhost:3000/api/v1/employee_data.json
-}
 ```
-
-
-
-```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
-```
-
 
 instead of
 
@@ -33,5 +23,5 @@ curl -XPOST -H "Content-Type: application/json" "localhost:3000/api/v1/employee_
   "name": "Kate",
   "address": "London",
   "age": "42"
-  }
+  }'
 ```
