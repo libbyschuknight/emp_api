@@ -5,9 +5,9 @@ App made from following "Build Great APIS with Grape
 
 Syntax for doing post using curl
 
-```
-curl -d "name=bob" -d "address=mumbai" -d "age=33" http://localhost:3000/api/v1/employee_data.json
-```
+ ``` 
+ curl -d "name=bob" -d "address=mumbai" -d "age=33" http://localhost:3000/api/v1/employee_data.json
+ ``` 
 
 instead of
 
