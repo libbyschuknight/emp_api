@@ -5,7 +5,8 @@ module Employee
       desc "List all Employee"
 
       get do
-        EmpData.all
+        # the tutorial had EmpData.all below when I created app but the model that was made was emp_datum.rb. So changed below and works.
+        EmpDatum.all
       end
     end
 
