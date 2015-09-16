@@ -5,9 +5,16 @@ App made from following "Build Great APIS with Grape
 
 Syntax for doing post using curl
 
-'''
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+```
 curl -d "name=bob" -d "address=mumbai" -d "age=33" http://localhost:3000/api/v1/employee_data.json
-'''
+```
+
 
 
 ```
