@@ -1,0 +1,2 @@
+module EmpDatumsHelper
+end
