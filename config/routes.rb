@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :emp_datums
+
+  root 'emp_datums#index'
+
   mount API => '/'
 
   # The priority is based upon order of creation: first created -> highest priority.

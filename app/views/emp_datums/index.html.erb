@@ -1,0 +1,21 @@
+<h1>Employee Data</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @emp_data.each do |emp| %>
+      <tr>
+        <td><%= emp.name %></td>
+        <td><%= emp.address %></td>
+        <td><%= emp.age %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
