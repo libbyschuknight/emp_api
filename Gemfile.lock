@@ -186,12 +186,12 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   grape
-  grape-entity (~> 0.4.0)
-  grape-swagger (~> 0.7.2)
-  grape-swagger-rails (~> 0.0.8)
+  grape-entity
+  grape-swagger
+  grape-swagger-rails
   jbuilder (~> 2.0)
   jquery-rails
-  rack-contrib (~> 1.1.0)
+  rack-contrib
   rails (= 4.2.3)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)

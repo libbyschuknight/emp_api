@@ -1,11 +1,15 @@
+require 'grape'
+
 # class API < Grape::API
 #   prefix 'api'
 #   version 'v1', using: :path
 #   mount Employee::Data
+
+#   add_swagger_documentation(
+#     base_path: "/api",
+#     hide_documentation_path: true
+#   )
 # end
-
-
-require 'grape'
 
 module API
   class Base < Grape::API
