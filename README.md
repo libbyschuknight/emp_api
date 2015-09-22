@@ -29,3 +29,6 @@ curl -XPOST -H "Content-Type: application/json" "localhost:3000/api/v1/employee_
   "age": "42"
   }'
 ```
+
+Get all employee data from API:
+`http://localhost:3000/api/v1/employee_data.json`
