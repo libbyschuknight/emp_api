@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
   resources :emp_datums
-  mount API => '/'
+
+  root 'emp_datums#index'
+
+  # mount API => '/'
+
+
+  # API+API Documentation
+  mount API::Base => '/api'
+  mount GrapeSwaggerRails::Engine => '/apidoc'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
