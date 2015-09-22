@@ -44,3 +44,7 @@ group :development, :test do
 end
 
 gem 'grape'
+gem 'grape-entity', '~> 0.4.0'
+gem 'rack-contrib', '~> 1.1.0'
+gem 'grape-swagger', '~> 0.7.2'
+gem 'grape-swagger-rails',  '~> 0.0.8'
